@@ -1,0 +1,57 @@
+apiVersion: v1
+entries:
+  postgresql:
+  - apiVersion: v1
+    appVersion: 11.8.0
+    created: "2023-06-12T11:05:39.032974221+03:00"
+    description: Chart for PostgreSQL, an object-relational database management system
+      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 26bbfb9fd30036b6923932cf1be5140b28ba1c6cbf1494b0e1ae5b37be30b92a
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - https://amitaronovitch.github.io/charts/packages/postgresql-8.10.6.tgz
+    version: 8.10.6
+  redis:
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 6.0.6
+    created: "2023-06-12T11:05:39.047526572+03:00"
+    description: Open source, advanced key-value store. It is often referred to as
+      a data structure server since keys can contain strings, hashes, lists, sets
+      and sorted sets.
+    digest: d031d7c1ec64275a974a9d569e11930547bbc53fa533f05b71594b54144bff74
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - https://amitaronovitch.github.io/charts/packages/redis-10.7.13.tgz
+    version: 10.7.13
+generated: "2023-06-12T11:05:39.026124525+03:00"
